@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="store">
+
+<head>
+    <meta charset="utf-8">
+    <title>Grocery Tracker</title>
+    <link rel="stylesheet" href="src/styles/main.css" />
+</head>
+
+
+<body>
+    <header>
+        <h1>Inventory</h1>
+    </header>
+    <div ng-controller="StoreController as store" class="inventory-content">
+        <div>
+            <table class="inventory-items">
+
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Color</th>
+                </tr>
+                <tr ng-repeat="product in store.products">
+                    <td>{{product.name}}</td>
+                    <td>${{store.getNewPrice(product.price, product.discount)}}<img src="./src/images/1488946534_sale.png" ng-show="store.discountPrice(product.discount)" class="sale" /> </td>
+                    <td>{{product.quantity}}</td>
+                    <td>{{product.color}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="src/js/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="src/js/main.js"></script>
+    <script type="text/javascript" src="src/js/storeServices/storeServices.js"></script>
+</body>
+
+</html>
+
+
+</html>

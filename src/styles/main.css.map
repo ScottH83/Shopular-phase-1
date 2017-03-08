@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAiB;EACb,UAAU,EAAE,OAAO;EACnB,aAAa,EAAE,IAAI;EAEnB,KAAK,EAAE,GAAG;;AAGd,KAAM;EACF,MAAM,EAAE,IAAI;;ACRhB,IAAK;EACD,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAE,2GAA2G;EAC7H,mBAAmB,EAAE,MAAM;EAC3B,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM",
+"sources": ["partials/_main-table.scss","partials/_body.scss"],
+"names": [],
+"file": "main.css"
+}

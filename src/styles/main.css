@@ -1,0 +1,17 @@
+.inventory-items {
+  background: #71727F;
+  border-radius: 10px;
+  width: 60%; }
+
+.sale {
+  height: 20px; }
+
+body {
+  align-items: center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+/*# sourceMappingURL=main.css.map */
